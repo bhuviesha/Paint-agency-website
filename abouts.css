@@ -1,0 +1,133 @@
+*{
+    
+    padding:0px;
+    margin:0px;
+   
+   
+}
+body{
+   height:100vh;
+   font-family: 'Montserrat', sans-serif,Arial, Helvetica, sans-serif;
+
+}
+
+header {
+    
+   height:15.79%;
+   width:100%;
+   background-color: rgb(12, 27, 51);
+   position: fixed;
+   top: 0;
+   z-index: 100;
+}
+header ol{
+   display: flex;
+   justify-content: flex-end;
+}
+header ol li{
+  
+  margin-top: 1.57%;
+  margin-right: 1.1%;
+  font-size:1.5em;
+  padding-top: 0.7em;
+  list-style: none;
+  padding:1%;
+  color: azure;
+  border-radius: 25px;
+  
+  
+}
+header ol li a{
+  text-decoration: none;
+  color: inherit;
+ 
+}
+header ol li a:hover,
+header ol li:hover{
+  background-color: snow;
+  color: rgb(11, 30, 59);
+  transition: 0.1s;
+}
+main{
+    margin-top: 7%;
+    height:100%;
+}
+.container1{
+    height:70%;
+    background-color:  rgb(12, 27, 51);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap:2%;
+}
+#history{
+  
+   padding:5%;
+   line-height:30px;
+   
+  
+}
+#history h1{
+   text-align: center;
+}
+#history p{
+   text-align:justify;
+}
+#history,#historyimg{
+   background-color:rgb(151, 177, 166) ;
+}
+
+
+
+#historyimg .img1{
+   background-image: url("bg6.png");
+   height: 80%;
+   width: 60%;
+   margin-top:7%;
+   margin-left: 30%;  
+   background-size:100% 100%;
+   border-radius: 5%;
+  
+}
+.container2{
+    height:70%;
+    background-color:  rgb(107, 73, 97);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap:2%;
+}
+#materials,#materialsimg{
+    background-color:rgb(154, 140, 152) ;
+ }
+ #materialsimg .img2{
+    background-color: rgb(201, 173, 167);
+    height: 80%;
+    width: 60%;
+    margin-top:7%;
+    margin-left:10%;  
+ }
+ .container3{
+    height:70%;
+    background-color:  rgb(12, 27, 51);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap:2%;
+    margin-bottom:3%;
+}
+#colorpalate,#colorpalateimg{
+   background-color:rgb(151, 177, 166) ;
+
+}
+
+#colorpalateimg .img3{
+   background-color: rgb(29, 36, 48);
+   height: 80%;
+   width: 60%;
+   margin-top:7%;
+   margin-left: 30%; 
+   
+}
+footer{
+    height:40%;
+    width: 100%;
+    background-color: rgb(12, 27, 51);
+}
